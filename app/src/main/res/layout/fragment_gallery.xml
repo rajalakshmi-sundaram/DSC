@@ -41,12 +41,12 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="161dp"
+        android:layout_width="172dp"
         android:layout_height="28dp"
         android:layout_marginStart="85dp"
         android:layout_marginLeft="85dp"
-        android:layout_marginBottom="224dp"
-        android:text="Visit dscsastra.com"
+        android:layout_marginBottom="226dp"
+        android:text="@string/txtLink"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

@@ -1,6 +1,7 @@
 package com.example.dsc.ui.gallery;
 
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,7 +24,8 @@ public class GalleryFragment extends Fragment {
         galleryViewModel =
                 ViewModelProviders.of(this).get(GalleryViewModel.class);
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-
+        TextView t2 = (TextView) root.findViewById(R.id.textView3);
+        t2.setMovementMethod(LinkMovementMethod.getInstance());
         return root;
     }
 }
