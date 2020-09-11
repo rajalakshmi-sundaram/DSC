@@ -45,7 +45,7 @@
         android:layout_height="28dp"
         android:layout_marginStart="85dp"
         android:layout_marginLeft="85dp"
-        android:layout_marginBottom="230dp"
+        android:layout_marginBottom="224dp"
         android:text="Visit dscsastra.com"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
